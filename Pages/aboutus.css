@@ -1,0 +1,337 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 182, 193, 0.172);
+    
+}
+
+.nav {
+    width: 100%;
+    height: 30px;
+   border-bottom: solid 2px blue;
+    margin-top: -20px;
+    
+}
+ul {
+    list-style: none;
+    display: flex;
+    margin-left: 20%;
+    margin-top: 40px;
+    
+    
+    
+}
+ul li a{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+    padding: 40px;
+    margin-top: 20px;
+    transition: 0.3s;
+    transition: border-bottom 0.3s ease;
+    margin-top: -0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+ul li a:hover {
+    cursor: pointer;
+}
+.content {
+    width: 100vw;
+    height: 70vh;
+  background: linear-gradient(135deg, rgba(0, 89, 255, 0.678), green);
+  color: white;
+  font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-size: 2.8em;
+    margin-top: 20px;
+    background-size: cover;
+    padding-top: 10%;
+}
+.tatu {
+  font-size: 23px;
+  margin-top: -40px;
+}
+.Who {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    background-color: aqua;
+    width: 20vw;
+    height: 10vh;
+    margin: 0 auto;
+
+
+}
+
+.ment {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+.pho {
+  width: 50vw;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  min-height: 50vh;
+  border-radius: 25px;
+}
+.maneno {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top:100px;
+  margin-left: 30px;
+  font-size: 18px;
+}
+.about {
+  display: flex;
+  margin-inline: 20px;
+}
+button {
+  background-color: rgba(0, 0, 255, 0.507);
+  color: yellow;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+
+}
+.text-box {
+  background-color: rgba(135, 206, 250, 0.684);       /* Light background */
+  color: #1d3557;                  /* Dark text color */
+  border: 2px solid #a8dadc;       /* Border color */
+  padding: 20px;                   /* Space inside the box */
+  margin: 30px auto;               /* Center it on the page */
+  max-width: 600px;                /* Set a reasonable width */
+  border-radius: 10px;             /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Subtle shadow */
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+.next{
+     background-color: rgba(135, 206, 250, 0.625);       /* Light background */
+  color: #1d3557;                  /* Dark text color */
+  border: 2px solid #a8dadc;       /* Border color */
+  padding: 20px;                   /* Space inside the box */
+  margin: 30px auto;               /* Center it on the page */
+  max-width: 600px;                /* Set a reasonable width */
+  border-radius: 10px;             /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Subtle shadow */
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+.main {
+    display: flex;
+}
+.mission {
+    margin-top: 300px;
+       background-color: rgba(135, 229, 250, 0.419);       /* Light background */
+  color: #1d3557;                  /* Dark text color */
+  border: 2px solid #a8dadc;       /* Border color */
+  padding: 20px;                   /* Space inside the box */
+  margin: 30px auto;               /* Center it on the page */
+  max-width: 600px;                /* Set a reasonable width */
+  border-radius: 10px;
+   border: 2px solid blue; 
+  font-family: Arial, Helvetica, sans-serif;  
+}
+.power {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+.head {
+    color: #0000ff;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.second {
+    color:#0000ff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+.sion {
+    text-align: center;
+    color: black;
+       background-color: rgba(135, 206, 250, 0.574);       /* Light background */
+  color: #1d3557;                  /* Dark text color */
+  border: 2px solid #a8dadc;       /* Border color */
+  padding: 20px;                   /* Space inside the box */
+  margin: 30px auto;               /* Center it on the page */
+  max-width: 600px;                /* Set a reasonable width */
+  border-radius: 10px; 
+   border: 2px solid blue;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+.theobj {
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.thevis {
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tive {
+    text-align: center;
+    color: black;
+       background-color: rgba(135, 206, 250, 0.527);       /* Light background */
+  color: #1d3557;                  /* Dark text color */
+  border: 2px solid #a8dadc;       /* Border color */
+  padding: 20px;                   /* Space inside the box */
+  margin: 30px auto;               /* Center it on the page */
+  max-width: 600px;                /* Set a reasonable width */
+  border-radius: 10px; 
+   border: 2px solid blue;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+.themis {
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ .message {
+    background-color: rgba(173, 230, 183, 0.713);
+    border-radius: 50px;
+    margin-top: 1760px;
+    display: flex;
+    
+ }   
+
+.obje {
+    color:#0000ff;
+    text-align: center;
+}
+.main {
+  background-color: #eef0fac2;       /* Light background */
+  color: #1d3557;                  /* Dark text color */
+  border: 2px solid #a8dadc;       /* Border color */
+  padding: 20px;                   /* Space inside the box */
+  margin: 30px auto;               /* Center it on the page */
+  max-width: 1500px;                /* Set a reasonable width */
+  border-radius: 10px;             /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Subtle shadow */
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  display: flex;
+  margin-top: 50px;
+  min-height: 40vh;
+    justify-content: center;
+}
+.later {
+  margin-top: 50px;
+   background-color: rgba(135, 206, 250, 0.74);       /* Light background */
+  color: #1d3557;                  /* Dark text color */
+  border: 2px solid #a8dadc;       /* Border color */
+  padding: 20px;                   /* Space inside the box */
+  margin: 30px auto;               /* Center it on the page */
+  max-width: 600px;                /* Set a reasonable width */
+  border-radius: 10px;             /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Subtle shadow */
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+
+.class {
+  background-color: rgba(144, 238, 144, 0.566);       /* Light background */
+  color: #1d3557;                  /* Dark text color */
+  border: 2px solid #a8dadc;       /* Border color */
+  padding: 20px;                   /* Space inside the box */
+  margin: 30px auto;               /* Center it on the page */
+  max-width: 600px;                /* Set a reasonable width */
+  border-radius: 10px;             /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Subtle shadow */
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+.fin {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 20px;
+}
+
+.mental-health-footer {
+  background-color: #2e3b4e;
+  color: #f5f5f5;
+  padding: 40px 20px 20px;
+  font-family: 'Arial', sans-serif;
+  
+margin-top: 40%;
+}
+
+.mental-health-footer .footer-content {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.site-footer {
+  background: linear-gradient(135deg, #2c3e50, #34495e);
+  color: #f1f1f1;
+  padding: 40px 20px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-container {
+  
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-about,
+.footer-links,
+.footer-contact {
+  flex: 1 1 250px;
+  margin: 10px;
+}
+
+.footer-about h3,
+.footer-links h4,
+.footer-contact h4 {
+  color: #a8dadc;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+  color: #ffd166;
+}
+
+.social-icons a img {
+  width: 24px;
+  margin-right: 10px;
+  transition: transform 0.3s;
+}
+
+.social-icons a img:hover {
+  transform: scale(1.1);
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #555;
+  margin-top: 30px;
+  padding-top: 15px;
+  font-size: 14px;
+  color: #ccc;
+}
