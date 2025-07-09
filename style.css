@@ -144,6 +144,10 @@ button2 a{
   border-radius: 20px;
   margin-top: 20px;
 }
+.picone:hover{
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
 .pictwo  {
     margin-left: 10px;
     width: 35%;
@@ -151,6 +155,10 @@ button2 a{
     height: 50vh;
     background-color: #f1faee;
     border: 2px solid black;   
+}
+.pictwo:hover{
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
 .no {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -197,6 +205,10 @@ button2 a{
 .picthree img {
      margin-top: 20px;
      border-radius: 20px;
+}
+.picthree:hover{
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
 
 .hands {
@@ -336,6 +348,10 @@ button2 a{
     margin-bottom: 60px;
     display: flex;
     margin-top: 60px;
+}
+.bottom:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
 }
 .ppp {
     font-size: 23px;
